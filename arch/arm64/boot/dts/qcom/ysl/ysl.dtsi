@@ -1,2 +1,8 @@
+#include "pinctrl.dtsi"
+#include "msm8953-ysl-pinctrl.dtsi"
 #include "battery.dtsi"
 #include "misc.dtsi"
+#include "display.dtsi"
+#include "power.dtsi"
+#include "soc.dtsi"
+#include "regulator.dtsi"
