@@ -1,3 +1,4 @@
+#include "soc.dtsi"
 #include "remove.dtsi"
 #include "pinctrl.dtsi"
 #include "msm8953-ysl-pinctrl.dtsi"
@@ -7,6 +8,5 @@
 #include "pstore.dtsi"
 #include "display.dtsi"
 #include "power.dtsi"
-#include "soc.dtsi"
 #include "touchscreen.dtsi"
 #include "regulator.dtsi"
