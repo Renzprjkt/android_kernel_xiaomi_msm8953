@@ -8,4 +8,5 @@
 #include "display.dtsi"
 #include "power.dtsi"
 #include "soc.dtsi"
+#include "touchscreen.dtsi"
 #include "regulator.dtsi"
