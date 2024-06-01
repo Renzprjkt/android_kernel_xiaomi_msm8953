@@ -7,6 +7,7 @@
 #include "misc.dtsi"
 #include "pstore.dtsi"
 #include "display.dtsi"
+#include "fingerprint.dtsi"
 #include "power.dtsi"
 #include "touchscreen.dtsi"
 #include "camera.dtsi"
