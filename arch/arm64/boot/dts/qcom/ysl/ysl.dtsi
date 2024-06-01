@@ -1,6 +1,7 @@
 #include "remove.dtsi"
 #include "pinctrl.dtsi"
 #include "msm8953-ysl-pinctrl.dtsi"
+#include "android.dtsi"
 #include "battery.dtsi"
 #include "misc.dtsi"
 #include "display.dtsi"
