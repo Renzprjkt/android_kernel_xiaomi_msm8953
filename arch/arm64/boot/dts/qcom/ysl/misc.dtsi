@@ -1,0 +1,38 @@
+/* k4.9 msm8953-mtp.dts */
+
+&i2c_2 { /* BLSP1 QUP2 */
+	/delete-node/ adv7533@39;
+};
+
+&pm8953_vadc {
+	/delete-node/ chan@13;
+};
+
+&i2c_2 {//E6
+	status = "ok";
+	awinic@45 { // Breath Light-Driven
+		compatible = "awinic,aw2023_led";
+		reg = <0x45>;
+		vdd-supply = <&pm8953_l10>;
+		vcc-supply = <&pm8953_l5>;
+
+		aw2023,red {
+			aw2023,name = "red";
+			aw2023,id = <0>;
+			aw2023,imax = <3>;
+			aw2023,led-current = <7>;
+			aw2023,max-brightness = <255>;
+			aw2023,rise-time-ms = <6>;
+			aw2023,hold-time-ms = <0>;
+			aw2023,fall-time-ms = <6>;
+			aw2023,off-time-ms = <4>;
+
+			aw2013,max-current = <1>;
+			aw2013,max-brightness = <255>;
+			aw2013,rise-time-ms = <4>;
+			aw2013,hold-time-ms = <1>;
+			aw2013,fall-time-ms = <4>;
+			aw2013,off-time-ms = <1>;
+		};
+	};
+};
