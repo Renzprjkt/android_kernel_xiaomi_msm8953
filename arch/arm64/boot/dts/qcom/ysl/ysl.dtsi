@@ -4,6 +4,7 @@
 #include "android.dtsi"
 #include "battery.dtsi"
 #include "misc.dtsi"
+#include "pstore.dtsi"
 #include "display.dtsi"
 #include "power.dtsi"
 #include "soc.dtsi"
