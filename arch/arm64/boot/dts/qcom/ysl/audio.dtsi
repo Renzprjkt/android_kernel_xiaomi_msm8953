@@ -66,6 +66,18 @@
 &wsa881x_i2c_45 {
 	status = "disabled";
 };
+/* Custom changes */
+&wsa881x_analog_vi_gpio {
+        status = "disabled";
+};
+
+&wsa881x_analog_clk_gpio {
+        status = "disabled";
+};
+
+&wsa881x_analog_reset_gpio {
+        status = "disabled";
+};
 /* msm8953-audio */
 &int_codec {
     qcom,msm-ext-pa = "primary";
