@@ -33,10 +33,6 @@
 	};
 };
 
-&pm8953_vadc {
-	/delete-node/ chan@13;
-};
-
 /* msm-pm8953 */
 &soc {
 	qcom,mpm@601d4 {

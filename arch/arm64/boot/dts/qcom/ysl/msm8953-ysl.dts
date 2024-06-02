@@ -27,4 +27,8 @@
 	qcom,pmic-id = <0x010016 0x010011 0x0 0x0>;
 };
 
+&pm8953_vadc {
+	/delete-node/ chan@13;
+};
+
 
